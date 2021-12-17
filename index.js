@@ -1,6 +1,6 @@
  
  function randomNum(){
-    let randomNumber = Math.floor(Math.random()*9)
+    let randomNumber = Math.floor(Math.random()*10)
     return randomNumber
  } 
 
