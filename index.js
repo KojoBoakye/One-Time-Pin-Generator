@@ -16,20 +16,7 @@ function renderNumber(){
     thirdnumber = randomNum()
     fourthnumber = randomNum()
 
-    if(secondnumber === firstnumber){
-        secondnumber =  randomNum() 
-        renderNumber()  
-    }
-
-    if(thirdnumber=== secondnumber || thirdnumber === firstnumber  ){
-       thirdnumber = randomNum() 
-       renderNumber() 
-    }
-
-    if (fourthnumber === thirdnumber  || fourthnumber === secondnumber || fourthnumber === firstnumber){
-        fourthnumber = randomNum()  
-        renderNumber()
-    }
+    
      
 
      let pin = firstnumber + " " + secondnumber + " " + thirdnumber + " " + fourthnumber
